@@ -11,3 +11,6 @@ RUN cd /tmp && \
     ./aws/install && \
     rm -rf awscliv2.zip && \
     rm -rf aws/
+
+ENV AWS_PAGER cat
+
